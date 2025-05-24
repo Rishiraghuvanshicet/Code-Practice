@@ -13,7 +13,7 @@ function anagram(str1, str2) {
     let el = z.charCodeAt(0) - "a".charCodeAt(0);
     newArray[el] -= 1;
   }
-  
+
   for (let y of newArray) {
     if (y !== 0) {
       return false;

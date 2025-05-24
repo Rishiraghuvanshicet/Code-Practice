@@ -3,7 +3,7 @@ const str2 = "abc";
 
 function checkTwoStrAreSame(s1, s2) {
   const n1 = s1.length - 1;
-  const n2 = s2.length - 1;
+ 
 
   for (let i = 0; i < n1; i++) {
     if (s1[i] !== s2[i]) {
